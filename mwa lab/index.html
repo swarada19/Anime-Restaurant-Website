@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artopia - Face Painting Competition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Artopia</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Artopia</h2>
+            <p>Artopia is an annual face painting competition where artists showcase their talent and creativity.</p>
+            <!-- Add more event details here -->
+        </div>
+    </section>
+    <section id="register">
+        <div class="container">
+            <h2>Register for Artopia</h2>
+            <form method="post" action="register.php">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div id="gallery-images">
+                <!-- Gallery images will be loaded dynamically using JavaScript -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Artopia. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

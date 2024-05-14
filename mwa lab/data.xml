@@ -1,0 +1,14 @@
+<!-- XML data for the event -->
+<artopia>
+    <event>
+        <name>Artopia - Face Painting Competition</name>
+        <date>October 15, 2024</date>
+        <location>New York City</location>
+        <!-- Add more event details here -->
+    </event>
+    <organizer>
+        <name>Art Association</name>
+        <email>info@artassociation.com</email>
+        <!-- Add more organizer details here -->
+    </organizer>
+</artopia>
